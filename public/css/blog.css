@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300;400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    
+    height: auto;
+    background-color: #EEEEEE ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+nav{
+    width: 80%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 13px;
+}
+nav ul{
+    list-style: none;
+    display: inline-flex;
+    gap: 10px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: #194D91;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner img{
+    width: 80%;
+}
+.post-blog{
+    width: 70%;
+    padding: 10px;
+    margin: 20px;
+}
+section{
+    width: 80%;
+}
+
+.post-blog a{
+    padding:7px 9px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+.post-blog a:hover{
+    background-color: #28597A;
+}
+
+footer{
+    height: auto;
+    background-color: #444444 ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
